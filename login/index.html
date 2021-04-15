@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body bgcolor="black">
+
+<h2><font style="color: #f1f1f1" >Login Form</font></h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate"  method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="wish.jpeg"   alt="Sagar's" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><font style="color: #f1f1f1"><b>Username</b></font></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><font style="color: #f1f1f1"><b>Password</b></font></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit"><a href="https://github.com/MSAC-KIIT">Click on Login</a></button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> <font style="color: #f1f1f1">Remember me</font>
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1" >
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw"><font style=color:#f1f1f1 >forgot password</font></span>
+    </div>
+  </form>
+</div>
+
+
+
+
+
+</body>
+</html>
